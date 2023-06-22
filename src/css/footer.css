@@ -1,0 +1,31 @@
+footer {
+    margin-top: 80px;
+    width: 100%;
+}
+
+footer .container-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+footer .container-list-footer {
+    width:80%;
+}
+
+footer img {
+    text-align: center;
+}
+
+footer .container-copyright {
+    color:#6D6D6D;
+    display: flex;
+    justify-content: center;
+}

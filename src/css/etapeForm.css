@@ -1,0 +1,275 @@
+.main {
+    overflow-x: hidden;
+}
+
+.progression-bar {
+    margin: 50px 0;
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+}
+
+.progression-bar h3{
+    color: #A9A9A9;
+    margin: 5px 0;
+    font-weight:300;
+    font-size: 1.2rem;
+}
+.progression-bar h4 {
+    color: #3C3C3C;
+    font-size:1.4rem;
+    margin: 0;
+}
+.progression-bar p {
+    margin:0;
+}
+.block-text-etape {
+    margin: 20px 0;
+}
+
+.progression-div {
+    width:80%;
+    height: 7px;
+    
+    border-radius: 5px;
+}
+.progression-colored {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 23vw;
+}
+
+.progression-colored2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 23vw;
+}
+.progression-colored .container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #3190B3;
+}
+
+ .container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #3190B3;
+}
+
+.termine .container-img {
+    background-color: #30D07A;
+}
+
+.termine .progression-div {
+    background-color: #30D07A;
+}
+
+.cours .container-img {
+    background-color: #F69331;
+}
+
+.cours .progression-div {
+    background: linear-gradient(
+    to right,
+    #F69331 0%,
+    #F69331 60%,
+    #ECECEC 60%,
+    #ECECEC 100%
+  );
+}
+
+.venir .container-img {
+    background-color: #ECECEC;
+}
+
+.venir .progression-div {
+    background-color: #ECECEC;
+}
+
+
+
+
+header {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-text {
+    width:90%;
+    display:flex;
+}
+
+.header-text img {
+    margin-right: 10px;
+}
+
+.etape4-div {
+    width: 8%;
+}
+.etape-div {
+    width: 20%
+}
+
+.champ-cours {
+     background-color: #FEF8F1;
+     width: fit-content;
+     padding: 2px 10px;
+     border-radius: 15px;
+     margin: 5px 0;
+}
+.champ-cours p {
+    font-size: 1.1rem;
+color: #F69331;
+}
+
+.champ-venir {
+    background-color: #F5F5F5;
+    width: fit-content;
+    padding: 2px 10px;
+    border-radius: 15px;
+    margin: 5px 0;
+}
+.champ-venir p {
+   font-size: 1.1rem;
+color: #A9A9A9;
+}
+
+.champ-termine {
+    background-color: #30D07A1A;
+    width: fit-content;
+    padding: 2px 10px;
+    border-radius: 15px;
+    margin: 5px 0;
+}
+.champ-termine p {
+   font-size: 1.1rem;
+color: #30D07A;
+}
+
+
+
+
+
+
+
+
+/*---page besoin ---*/
+.page-besoin {
+    color:#3C3C3C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-besoin .titre {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    
+}
+
+.page-besoin .titre h1{
+    margin: 0;
+}
+.page-besoin .titre h2{
+    margin: 0;
+    font-size: 1rem;
+}
+
+.page-besoin form {
+    display:flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+    width: 95vw;
+}
+
+/*les cartes */
+
+.page-besoin .carte-besoin {
+    width: 19vw;
+    height: 16vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: #ECECEC solid 1px;
+    border-radius:20px;
+    padding: 10px;
+}
+.carte-besoin .haut-carte {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carte-besoin .text-carte {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.carte-besoin .text-carte h3 {
+    font-size: 2vw;
+    margin:0;
+}
+.carte-besoin .text-carte p {
+    margin:0;
+}
+.carte-besoin button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #D6E9F04D;
+    border: none;
+    border-radius:15px
+}
+.carte-besoin img {
+    width: 1vw;
+}
+
+.custom-checkbox {
+    margin:10px 0;
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checked {
+    background-color: #F69331;
+}
+.unchecked {
+    background-color: #f6943100;
+}
+
+
+/*------------------*/
+
+.next-button {
+    width: 250px;
+    height: 70px;
+    border-radius: 20px;
+    border: solid #3190B3;
+    background-color: #4BB0D9;
+    color: white;
+    font-size: 1.6rem;
+}

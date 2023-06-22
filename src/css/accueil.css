@@ -1,0 +1,145 @@
+.page-accueil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/design/FOND.png");
+
+    background-size: 100%;
+    background-color: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.8));
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.page-accueil .intro {
+    background-color: rgba(162, 214, 233, 0.3);
+    margin: 110px 0px 0px 0px;
+    width: 25%;
+    height: 1.8rem;
+    border-radius: 20px;
+}
+.page-accueil h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #3190B3;
+}
+
+.page-accueil .titre-accueil {
+   width: 70%;
+   font-size: 1.5rem;
+   margin: 20px 0;
+}
+
+
+.page-accueil .color-text {
+    color: #F69331;
+}
+
+.page-accueil .text-explicatif {
+    width: 70%;
+    line-height:2rem;
+    font-size: 1.1rem;
+    margin: 0 0 30px 0;
+}
+
+.page-accueil .boutton-generer {
+    width: 250px;
+    height: 50px;
+    font-size: 1rem;
+    background-image: linear-gradient(#3190B3, #6EBCDB);
+    border: none;
+    border-radius:15px;
+    color:white
+}
+
+.page-accueil .horloge {
+    display: flex;
+    width:100px;
+    justify-content: space-around;
+    color: #6D6D6D;
+}
+
+.page-accueil iframe {
+    margin: 70px 0 0 0;
+    width: 70%;
+    border-radius:25px;
+}
+
+.page-accueil .aide-text {
+    margin: 80px 0 0 0;
+    color:#3190B3;
+    font-weight: 500;
+}
+
+.page-accueil .container-h2 {
+    font-size: 1.6rem;
+    width:75%;
+}
+
+/*liste de carte*/
+
+.page-accueil .liste-carte {
+    margin: 50px 0 100px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.page-accueil .carte-page {
+    
+    color: black;
+    border: solid 1px #ECECEC;
+    display: flex;
+    border-radius:15px ;
+    width: 25vw;
+    height: 35vw;
+}
+
+.carte-page img {
+    border-radius:15px 15px 0 0;
+    width: 100%;
+}
+
+.carte-page .text-carte {
+    width:90%;
+    height:100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.page-accueil .link{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.link:link{
+    text-decoration: none;
+    color:#030303
+}
+.link:visited {
+    text-decoration: none;
+    color:#030303
+}
+.link:hover {
+    text-decoration: none;
+}
+
+.link:active {
+    text-decoration: none;
+}
+
+.page-accueil .link h3 {
+    color: #3C3C3C;
+    margin-bottom: 0;
+}
+
+.page-accueil .link p {
+    color: #6D6D6D;
+    margin-top: 0;
+}
+
+

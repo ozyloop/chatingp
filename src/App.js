@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+import Accueil from "./pages/Accueil";
+import ObjectifFormation from "./pages/ObjectiFormation";
+import FormDeDebut from "./pages/FormDeDebut";
+import EtapeForm from "./pages/EtapesForm";
+import NavBar from "./composants/navBar/NavBar"
+import { Route, Routes} from "react-router-dom";
+import Footer from "./composants/footer/footer"
+
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+
+
+    
+    return (
+        <div>
+            <NavBar/>
+            <Routes>
+                <Route path="/" element={<Accueil/>} />
+                <Route path="/ObjectifFormation" element={<ObjectifFormation/>} />
+                <Route path="/FormDeDebut" element={<FormDeDebut/>} />
+                <Route path="/EtapeForm" element={<EtapeForm/>} />
+                
+           
+            </Routes>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;
+
+
